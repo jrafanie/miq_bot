@@ -25,6 +25,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 
 gem 'thin'
+gem 'eventmachine', '~> 1.0.4' # only needed by thin, added for ruby 2.2 support, see: https://github.com/excon/excon/pull/463
 gem 'foreman', '~> 0.64.0' # v0.65.0 breaks support for the older upstart on RHEL 6
 
 gem 'rails_config', '0.5.0.beta1'
